@@ -24,8 +24,7 @@ class MiHilo implements Runnable {
                 color = ANSI_RED;
             }
             
-            System.out.println(color + "corriendo " + 
-                    Thread.currentThread().getName() + ", i es " + i);
+            System.out.println(color + "corriendo " + Thread.currentThread().getName() + ", i es " + i);
         }
     }
 }
