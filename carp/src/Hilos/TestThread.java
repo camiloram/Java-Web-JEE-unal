@@ -21,8 +21,12 @@ public class TestThread{
         hilo2.setName("hilo [2]");
         hilo3.setName("hilo [3]");
         
+        System.out.println(" -- Inicia -- ");
+        
         hilo1.start();
         hilo2.start();
         hilo3.start();
+        
+        System.out.println(" -- Finaliza -- ");
     }
 }
